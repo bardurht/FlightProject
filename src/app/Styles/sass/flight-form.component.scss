@@ -1,0 +1,124 @@
+@import 'app.component.scss';
+
+.content {
+  margin: 250px auto;
+  width: 1120px;
+  height: 150px;
+  background-color: rgba(64, 93, 153, 0.8);
+  border-radius: 5px;
+}
+
+.flight-row {
+  display: inline-block;
+}
+
+.form-group{
+  padding-top: 25px;
+  float: left;
+}
+
+.container{
+
+  font-size: 15px;
+}
+
+.container {
+  height: 50px;
+  width: 200px;
+  padding: 0;
+}
+
+.container label {
+  font-size: 18px;
+  color: white;
+}
+
+input[type="text"], [type="date"], select {
+  background-color: white;
+  color: black;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  padding: 10px;
+  border: 0;
+  font-size: 15px;
+  max-width: 150px;
+  min-width: 150px;
+  height: 20px;
+  line-height: 50px;
+  border-radius: 5px;
+
+  &:disabled{
+        background-color: rgba(82.7%, 87.2%, 82.7%, 0.5);
+    }
+}
+
+.validation-alert{
+  background-color: rgba(98.7%, 45%, 45%, 0.9);
+  color:black;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+  text-align: center;
+  max-width: 150px;
+  border-radius: 5px;
+
+}
+
+#form-warning{
+  float: right;
+  background-color: rgba(98.7%, 45%, 45%, 0.9);
+  color:black;
+  margin-left: 2px;
+  margin-right: 9px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+  text-align: center;
+  width: 76px;
+  border-radius: 5px;
+}
+
+select {
+   border: none;
+   font-size: 14px;
+   height: 40px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 100px;
+}
+
+.button {
+  background-color:white;
+  color: black;
+  padding: 11px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+
+  &:hover{
+    background-color: $background-color;
+    color: white;
+  }
+}
+
+//#destinationcity {
+//  margin-right: 10px;
+//}
+//
+//#returndate {
+//  margin-right: 10px;
+//}
+
+//Works for chrome
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}

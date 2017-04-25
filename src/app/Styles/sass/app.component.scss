@@ -1,0 +1,9 @@
+$background-color: #222;
+
+.bottom{
+    background-color: $background-color;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    position: fixed;
+}
